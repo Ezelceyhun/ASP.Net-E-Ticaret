@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="admin_panel_masterpage.master.cs" Inherits="eticaret.admin_panel_masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="admin_panel.css" type="text/css" rel="stylesheet" />
+    <link href="stil.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="renk">
+    <form id="form1" runat="server">
+        <div>
+            <div class="menu">
+    <ul>
+        <li><a href="#" >Kullanıcılar</a>
+            <ul>
+                <li><a href="kullanici_bilgi.aspx">Kullanıcı Bilgileri</a></li>
+                <li><a href="kullanici_kontrol.aspx">Kullanıcı Kontrol</a></li>
+                <li><a href="rol_yoneticisi.aspx">Rol Yöneticisi</a></li>
+            </ul>
+        </li>
+        <li><a href="#" >Ürünler</a>
+            <ul>
+                <li><a href="tum_urunler.aspx">Tüm Ürünler</a></li>
+                <li><a href="urun_ekle.aspx">Ürün Ekle</a></li>
+            </ul>
+        </li>
+        <li><a href="admin_kategoriler.aspx">Kategoriler</a></li>
+        <li><a href="anasayfa.aspx">Çıkış</a></li>
+    </ul>
+</div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

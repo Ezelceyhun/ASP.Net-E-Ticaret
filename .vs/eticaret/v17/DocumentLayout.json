@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|c:\\users\\ezelc\\desktop\\github projeleri\\asp.net e-ticaret temal\u0131 web site\\eticaret\\kullanici_kontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\kullanici_kontrol.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|c:\\users\\ezelc\\desktop\\github projeleri\\asp.net e-ticaret temal\u0131 web site\\eticaret\\kullanici_kontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\kullanici_kontrol.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|c:\\users\\ezelc\\desktop\\github projeleri\\asp.net e-ticaret temal\u0131 web site\\eticaret\\tum_urunler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\tum_urunler.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\urun_detay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\urun_detay.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\tum_urunler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{876BE3EC-8F02-4180-B0FD-114284A7C178}|eticaret\\eticaret.csproj|solutionrelative:eticaret\\tum_urunler.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "kullanici_kontrol.aspx",
+              "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\kullanici_kontrol.aspx",
+              "RelativeDocumentMoniker": "eticaret\\kullanici_kontrol.aspx",
+              "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\kullanici_kontrol.aspx",
+              "RelativeToolTip": "eticaret\\kullanici_kontrol.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-29T06:16:05.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "kullanici_kontrol.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\kullanici_kontrol.aspx.cs",
+              "RelativeDocumentMoniker": "eticaret\\kullanici_kontrol.aspx.cs",
+              "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\kullanici_kontrol.aspx.cs",
+              "RelativeToolTip": "eticaret\\kullanici_kontrol.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T06:16:01.287Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\Web.config",
+              "RelativeDocumentMoniker": "eticaret\\Web.config",
+              "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\Web.config",
+              "RelativeToolTip": "eticaret\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-02-29T06:14:40.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "tum_urunler.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\tum_urunler.aspx.cs",
+              "RelativeDocumentMoniker": "eticaret\\tum_urunler.aspx.cs",
+              "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\tum_urunler.aspx.cs",
+              "RelativeToolTip": "eticaret\\tum_urunler.aspx.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T06:14:40.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "tum_urunler.aspx",
+              "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\tum_urunler.aspx",
+              "RelativeDocumentMoniker": "eticaret\\tum_urunler.aspx",
+              "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\tum_urunler.aspx",
+              "RelativeToolTip": "eticaret\\tum_urunler.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-02-29T06:14:40.391Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "urun_detay.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\urun_detay.aspx.cs",
+              "RelativeDocumentMoniker": "eticaret\\urun_detay.aspx.cs",
+              "ToolTip": "C:\\Users\\ezelc\\Desktop\\Github Projeleri\\ASP.Net E-Ticaret Temal\u0131 Web Site\\eticaret\\urun_detay.aspx.cs",
+              "RelativeToolTip": "eticaret\\urun_detay.aspx.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAswEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T06:14:40.576Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

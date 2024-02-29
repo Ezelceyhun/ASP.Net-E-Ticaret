@@ -1,0 +1,67 @@
+﻿.renk {
+    background-color: #eaf0f0;
+}
+.baslik_text
+{
+    text-align:center;
+}
+.kullanici_kontrol_buton {
+    align-items: center;
+    appearance: button;
+    background-color: #0276FF;
+    border-radius: 8px;
+    border-style: none;
+    box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    flex-shrink: 0;
+    font-family: "RM Neue",sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0;
+    padding: 10px 21px;
+    text-align: center;
+    text-transform: none;
+    transition: color .13s ease-in-out,background .13s ease-in-out,opacity .13s ease-in-out,box-shadow .13s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.kullanici_kontrol_buton:active {
+        background-color: #006AE8;
+}
+.kullanici_kontrol_buton:hover {
+        background-color: #1C84FF;
+}
+#kul_kontrol_text
+{
+    text-align:left;
+    font-family:'Avenir Next LT Pro';
+    font-size:17px;
+}
+.anadiv_sol {
+    height: 500px;
+    width: 700px;
+    float: left;
+    background-color: #eaf0f0;
+}
+.sol {
+    float: left;
+    height: 390px;
+    width: 700px;
+    background-color: #eaf0f0;
+    padding-top: 110px;
+}
+#tablo_ortala
+{
+    margin:auto;
+    margin-top:100px;
+    text-align:center;
+}
+.datagrid_ortala
+{
+    margin:auto;
+}

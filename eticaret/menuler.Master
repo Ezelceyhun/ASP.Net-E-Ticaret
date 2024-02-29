@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="menuler.master.cs" Inherits="eticaret.menuler" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+        <link href="stil.css" type="text/css" rel="stylesheet" />
+        <link href="urun_detay.css" type="text/css" rel="stylesheet" />
+    <style type="text/css">
+    .auto-style1 {
+        height: 82px;
+    }
+    .auto-style2 {
+        width: 28px;
+    }
+    .auto-style3 {
+        height: 87px;
+        margin-left: 9px;
+    }
+</style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body class="renk">
+    <form id="form1" runat="server">
+    <div>
+        <div aria-multiline="False" class="auto-style1">
+        <div id="logo_left">
+            <a href="anasayfa.aspx"><asp:Image ID="Image1" runat="server" ImageUrl="~/resim/codingshop.png" Width="431px" /></a>
+        </div>
+        <div id="logo_right" class="auto-style2">
+            <asp:Panel ID="Panel1" runat="server">
+                <br />
+            </asp:Panel>
+        </div>
+        <div id="logo_right" class="auto-style3">
+            <asp:Panel ID="Panel2" runat="server" Height="70px" Width="87px">
+                <br />
+                <a href="kullanici.aspx">
+                <asp:Image  ID="Image4" runat="server" Height="35px" ImageUrl="~/resim/account_circle_FILL1_wght400_GRAD0_opsz24.png" Width="35px" />
+                </a><a href="sepet.aspx">
+                <asp:Image  ID="Image5" runat="server" Height="35px" ImageUrl="~/resim/shopping_cart_FILL1_wght400_GRAD0_opsz24.png" Width="35px" />
+                </a>
+            </asp:Panel>
+        </div>
+        </div> 
+        <p class="float_dur">
+        </p>
+        <div class="menu">
+            <ul>
+                <asp:ListView ID="ListView1" runat="server">
+                    <ItemTemplate>
+                        <li><a href="kategori.aspx?kategoriID=<%# Eval("kategori_id") %>&kategoriAD=<%# Eval("kategori_adi") %>"><%# Eval("kategori_adi") %></a></li>
+                    </ItemTemplate>
+                </asp:ListView>
+            </ul>
+        </div>
+    </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        </asp:ContentPlaceHolder>
+        <br />
+        <div class="footer_div">
+    <asp:Label ID="Label1" runat="server" Text="POWERED BY CODİNGARCHİVE.COM"></asp:Label>
+</div>
+    </form>
+</body>
+</html>

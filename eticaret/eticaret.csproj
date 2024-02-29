@@ -1,0 +1,266 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{876BE3EC-8F02-4180-B0FD-114284A7C178}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>eticaret</RootNamespace>
+    <AssemblyName>eticaret</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44304</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="admin_kategoriler.aspx" />
+    <Content Include="admin_panel.aspx" />
+    <Content Include="admin_panel.css" />
+    <Content Include="anasayfa.aspx" />
+    <Content Include="kategori.aspx" />
+    <Content Include="kullanici.aspx" />
+    <Content Include="kullanici.css" />
+    <Content Include="kullanici_bilgi.aspx" />
+    <Content Include="kullanici_giris_uye.aspx" />
+    <Content Include="kullanici_kontrol.aspx" />
+    <Content Include="menu.js" />
+    <Content Include="resim\account_circle_FILL1_wght400_GRAD0_opsz24.png" />
+    <Content Include="resim\codingshop.png" />
+    <Content Include="resim\DSC_6073.png" />
+    <Content Include="resim\shopping_cart_FILL1_wght400_GRAD0_opsz24.png" />
+    <Content Include="rol_yoneticisi.aspx" />
+    <Content Include="sepet.aspx" />
+    <Content Include="sepet.css" />
+    <Content Include="stil.css" />
+    <Content Include="tum_urunler.aspx" />
+    <Content Include="urun_detay.aspx" />
+    <Content Include="urun_detay.css" />
+    <Content Include="urun_ekle.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="admin_kategoriler.aspx.cs">
+      <DependentUpon>admin_kategoriler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_kategoriler.aspx.designer.cs">
+      <DependentUpon>admin_kategoriler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_panel.aspx.cs">
+      <DependentUpon>admin_panel.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_panel.aspx.designer.cs">
+      <DependentUpon>admin_panel.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin_panel_masterpage.Master.cs">
+      <DependentUpon>admin_panel_masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin_panel_masterpage.Master.designer.cs">
+      <DependentUpon>admin_panel_masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="anasayfa.aspx.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa.aspx.designer.cs">
+      <DependentUpon>anasayfa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="anasayfa_masterpage.Master.cs">
+      <DependentUpon>anasayfa_masterpage.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="anasayfa_masterpage.Master.designer.cs">
+      <DependentUpon>anasayfa_masterpage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="kategori.aspx.cs">
+      <DependentUpon>kategori.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kategori.aspx.designer.cs">
+      <DependentUpon>kategori.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanici.aspx.cs">
+      <DependentUpon>kullanici.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanici.aspx.designer.cs">
+      <DependentUpon>kullanici.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanici_bilgi.aspx.cs">
+      <DependentUpon>kullanici_bilgi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanici_bilgi.aspx.designer.cs">
+      <DependentUpon>kullanici_bilgi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanici_giris_uye.aspx.cs">
+      <DependentUpon>kullanici_giris_uye.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanici_giris_uye.aspx.designer.cs">
+      <DependentUpon>kullanici_giris_uye.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="kullanici_kontrol.aspx.cs">
+      <DependentUpon>kullanici_kontrol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="kullanici_kontrol.aspx.designer.cs">
+      <DependentUpon>kullanici_kontrol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="menuler.Master.cs">
+      <DependentUpon>menuler.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="menuler.Master.designer.cs">
+      <DependentUpon>menuler.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="rol_yoneticisi.aspx.cs">
+      <DependentUpon>rol_yoneticisi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rol_yoneticisi.aspx.designer.cs">
+      <DependentUpon>rol_yoneticisi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sepet.aspx.cs">
+      <DependentUpon>sepet.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sepet.aspx.designer.cs">
+      <DependentUpon>sepet.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tum_urunler.aspx.cs">
+      <DependentUpon>tum_urunler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tum_urunler.aspx.designer.cs">
+      <DependentUpon>tum_urunler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="urun_detay.aspx.cs">
+      <DependentUpon>urun_detay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="urun_detay.aspx.designer.cs">
+      <DependentUpon>urun_detay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="urun_ekle.aspx.cs">
+      <DependentUpon>urun_ekle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="urun_ekle.aspx.designer.cs">
+      <DependentUpon>urun_ekle.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="menuler.Master" />
+    <Content Include="anasayfa_masterpage.Master" />
+    <Content Include="admin_panel_masterpage.Master" />
+    <None Include="packages.config" />
+    <Content Include="urun-resim\1000gercekbegeni.webp" />
+    <Content Include="urun-resim\1000gercektakipci.webp" />
+    <Content Include="urun-resim\1000hikayeizlenme.webp" />
+    <Content Include="urun-resim\10000izlenme.webp" />
+    <Content Include="urun-resim\tiktok_1000begeni.webp" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50715</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44304/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Bu proje bu bilgisayarda olmayan NuGet paketlerine başvuru yapıyor. Bunları indirmek için NuGet Paket Geri Yükleme'yi kullanın. Daha fazla bilgi için, bkz. http://go.microsoft.com/fwlink/?LinkID=322105. Eksik dosya: {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

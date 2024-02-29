@@ -1,0 +1,196 @@
+﻿body {
+}
+.renk {
+    background-color: #eaf0f0;
+}
+#logo_left {
+    float: left;
+}
+
+#logo_right {
+    float: right;
+}
+
+.icon_right {
+    float: right;
+}
+
+.float_dur {
+    clear: both;
+}
+
+.menu {
+    width: 100%;
+    height: 48px;
+    background: #00516f;
+    margin: 0 auto;
+    border-bottom: 4px solid #002b3f;
+}
+
+    .menu ul li {
+        float: left;
+        list-style-type: none;
+        position: relative;
+    }
+
+        .menu ul li a {
+            color: #fff;
+            font: 17px Arial;
+            text-decoration: none;
+            display: block;
+            padding: 14px 15px;
+        }
+
+            .menu ul li a:hover {
+                color: #00b3e8;
+            }
+
+        .menu ul li ul {
+            display: none;
+            right: 0;
+            position: absolute;
+            top: 48px;
+        }
+
+            .menu ul li ul a {
+                background: #00516f;
+                color: white;
+                display: block;
+                font: bold 12px Arial, Helvetica, Sans-serif;
+                margin: 0px;
+                width: 100%;
+                height: 18px;
+                text-decoration: none;
+                line-height: 12px;
+            }
+
+        .menu ul li:hover ul {
+            display: block;
+        }
+
+.tum_urunler_anasayfa {
+    width: 100%;
+    height: 100%;
+    background-color:#eaf0f0;
+}
+.tek_urun_div {
+    float:left;
+    width: 200px;
+    height: 350px;
+    border 1px black solid;
+    background-color: darkorange;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.urun_resim {
+    height: 140px;
+    width: 200px;
+}
+
+.urun_resim_sinir {
+    height: 140px;
+    width: 200px;
+}
+
+.urun_aciklama {
+    height: 40px;
+    text-align:center;
+    font-size:17px;
+    font-family:'Avenir Next LT Pro';
+    font-weight:bold;
+}
+
+.urun_fiyat {
+    height: 80px;
+    text-align:center;
+}
+
+.urun_buton {
+    height: 50px;
+    align-content:center;
+}
+
+.buton2 {
+    background-color: #007ea8;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.footer_div 
+{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding-top:20px;
+    background-color: darkgrey;
+}
+.buton_css 
+{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6px 14px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: linear-gradient(180deg, #4B91F7 0%, #367AF6 100%);
+    background-origin: border-box;
+    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.buton_css:focus {
+        box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+        outline: 0;
+}
+.kullanici_anadiv {
+    width: 100%;
+    height: 500px;
+    background-color: #eaf0f0;
+}
+.kullanici_div_sol_yasla {
+    width: 350px;
+    height: 350px;
+    background-color: darkorange;
+    border-radius: 20px;
+    margin-left:50px;
+    float: left;
+}
+.text_css {
+    font-size: 13px;
+    border-radius: 4px;
+    line-height: 1.5;
+    padding: 2px ;
+    transition: box-shadow 100ms ease-in, border 100ms ease-in, background-color 100ms ease-in;
+    border: 0px solid #dee1e2;
+    color: rgb(14, 14, 16);
+    background: #dee1e2;
+    display: block;
+    height: 20px;
+}
+    text_css: hover
+
+{
+    border-color: #ccc;
+}
+
+text_css:focus {
+    border-color: #9147ff;
+    background: #fff;
+}
+                
+                

@@ -1,0 +1,98 @@
+﻿body {
+}
+.anadiv {
+    width: 100%;
+    height: 700px;
+    background-color: #eaf0f0;
+    padding-top: 20px;
+}
+.urun_kutu
+{
+    width:400px;
+    height:500px;
+    margin-left:20px;
+    float:left;
+}
+.detay_resim
+{
+    width:400px;
+    height:500px;
+}
+.stok_css {
+    height:59px;
+    width:670px;
+    float:left;
+    padding-top:30px;
+    text-align:right;
+}
+.urun_fiyat_detay{
+    height:79px;
+    width:180px;
+
+    float:left;
+    text-align:center;
+    padding-top:10px;
+    font-family:'Avenir Next LT Pro';
+
+}
+.sepete_ekle_butonu {
+    height: 89px;
+    width: 150px;
+
+    float: left;
+
+}
+
+.sepete_ekle_butonu_a {
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border: none;
+    width:150px;
+    height: 89px;
+    line-height: 250px;
+    border-radius: 7px;
+    background-color: #0070f3;
+    color: white;
+    box-shadow: 0 4px 14px 0 rgb(0 118 255 / 39%);
+    transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+sepete_ekle_butonu_a: hover {
+        background: rgba(0,118,255,0.9);
+        box-shadow: 0 6px 20px rgb(0 118 255 / 23%);
+    }
+
+
+.urun_ad {
+    width: 900px;
+    height: 90px;
+
+    float: left;
+    text-align: left;
+    padding-top: 70px;
+    padding-left: 100px;
+    font-family: 'Avenir Next LT Pro';
+    font-size: 25px;
+    font-weight: bold;
+}
+.detay_urun_aciklama {
+    height: 200px;
+    width: 950px;
+    float: left;
+
+    text-align:left;
+    padding-top:50px;
+    padding-left:50px;
+    font-size:15px;
+
+}
+.urun_yorumlar
+{
+    width:1360px;
+    height:80px;
+    background-color:dimgrey;
+    margin-left:20px;
+    text-align:left;
+    padding-left:40px;
+    padding-top:20px;
+}

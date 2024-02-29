@@ -1,0 +1,46 @@
+﻿.anasoldiv
+{
+    height:600px;
+    width:1100px;
+    background-color:aquamarine;
+    float:left;
+}
+.anasoldiv_uruncerceve
+{
+    margin-left:10px;
+    margin-top:10px;
+    margin-right:10px;
+    height:100px;
+    width:1080px;
+    background-color:yellowgreen;
+}
+.urun_cerceve_img {
+    height: 100px;
+    width: 200px;
+    background-color: pink;
+    float:left;
+}
+.img_sinir
+{
+    height:100px;
+    width:200px;
+}
+.urun_cerceve_aciklama
+{
+    height:100px;
+    width:1050px;
+    background-color:orangered;
+    
+}
+.aciklama_text {
+    height: 100px;
+    width: 1050px;
+    margin-left: 50px;
+    text-align: left;
+}
+.anasoldevamdiv {
+    height: 600px;
+    width: 403px;
+    background-color: darkorange;
+    float: left;
+}
